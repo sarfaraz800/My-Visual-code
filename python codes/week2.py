@@ -34,12 +34,13 @@ def factors(n):
             lfact=lfact+[i]
     return(lfact)        
 
-print("Enter a number")
-n=int(input())    
+#print("Enter a number")
+n=int(input("Enter a number\n"))    
 print("Intreverse is ",intreverse(n))
-print("Enter a string")
-s=str(input())
+#print("Enter a string")
+s=str(input("Enter a string\n"))
 print("Matched ?",matched(s))
 #print("Enter the list value")
-l=[15,54,25,63,78,46,20]
+l=list(range(1,100+1,2))
+print(l)
 print("Sum of prime is ",sumprimes(l))
