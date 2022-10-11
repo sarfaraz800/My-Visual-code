@@ -12,7 +12,7 @@ def matched(s):
     for i in range(0,len(s)):
         if s[i] == "(":
             opencount=opencount+1
-        if s[i] == ")":
+        elif s[i] == ")":
             closecount=closecount+1
     if opencount==closecount:
         return (True)
