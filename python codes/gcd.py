@@ -12,8 +12,8 @@ def gcd(m,n):
         if f in fn:
             cf.append(f)
     return (cf[-1])    
-print("Enter two number")
-m=int(input())
+#print("Enter two number")
+m=int(input("Enter two number"))
 n=int(input())
 k=gcd(m,n)
 print("GCD is ",k)                
