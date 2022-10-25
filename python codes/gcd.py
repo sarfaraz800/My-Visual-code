@@ -8,4 +8,4 @@ def gcd(m,n):
 
 m=int(input("Enter two number\n"))
 n=int(input())
-print("GCD is ",gcd(m,n))                
+print("GCD is ",gcd(m,n))           

@@ -9,3 +9,4 @@ print(len(name))
 print(len(factors))
 print(name[0])
 print(name[0][1][0:2])
+
