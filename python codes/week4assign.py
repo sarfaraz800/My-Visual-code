@@ -1,3 +1,4 @@
+import random
 def frequency(l):
     count=0
     visited=[]
@@ -25,8 +26,8 @@ def frequency(l):
         if v <= min:
             min=v    
 
-    #print(max)
-    #print(min) 
+    print(min)
+    print(max) 
 
     maxfreqlist=[]
     minfreqlist=[]
@@ -40,6 +41,8 @@ def frequency(l):
     #print(maxfreqlist)  
     return(minfreqlist,maxfreqlist)     
 
-
-l=[-17322,-271898,-374,-374,-374,-423432423,-423432423,-423432423,-423432423,-5325,-5325,-5325,-5325,-5325]
+l=[]
+for i in range(10):
+    l.append(random.randint(1,50))
+print(l)    
 print(frequency(l))
